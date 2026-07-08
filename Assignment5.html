@@ -1,0 +1,93 @@
+
+
+    <!DOCTYPE html>
+<html>
+<head>
+<title>Floating Balls Animation</title>
+
+<style>
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #111;
+}
+
+
+.ball {
+    width:80px;
+    height: 80px;
+    border-radius: 50%;
+    position:relative;
+    animation: move 2s infinite alternate ease-in-out;
+}
+
+
+@keyframes move {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(80vw, 80vh);
+    }
+}
+
+/* Different balls with different colors + speed + direction */
+.ball1 { background: radial-gradient(circle, orange, red); animation-duration: 4s; }
+.ball2 { background: radial-gradient(circle, blue, cyan); animation-duration: 5s; }
+.ball3 { background: radial-gradient(circle, green, lime); animation-duration: 6s; }
+.ball4 { background: radial-gradient(circle, purple, pink); animation-duration: 7s; }
+.ball5 { background: radial-gradient(circle, yellow, orange); animation-duration: 4.5s; }
+.ball6 { background: radial-gradient(circle, red, yellow); animation-duration: 5.5s; }
+.ball7 { background: radial-gradient(circle, cyan, blue); animation-duration: 6.5s; }
+.ball8 { background: radial-gradient(circle, pink, purple); animation-duration: 7.5s; }
+.ball9 { background: radial-gradient(circle, lime, green); animation-duration: 5s; }
+.ball10 { background: radial-gradient(circle, orange, yellow); animation-duration: 6s; }
+.ball11 { background: radial-gradient(circle, violet, blue); animation-duration: 4.2s; }
+.ball12 { background: radial-gradient(circle, aqua, teal); animation-duration: 5.2s; }
+.ball13 { background: radial-gradient(circle, gold, orange); animation-duration: 6.2s; }
+.ball14 { background: radial-gradient(circle, hotpink, red); animation-duration: 7.2s; }
+.ball15 { background: radial-gradient(circle, skyblue, navy); animation-duration: 5.8s; }
+
+
+.ball1 { top: 0; left: 0; }
+.ball2 { top: 10%; left: 20%; }
+.ball3 { top: 20%; left: 40%; }
+.ball4 { top: 30%; left: 60%; }
+.ball5 { top: 40%; left: 80%; }
+.ball6 { top: 50%; left: 10%; }
+.ball7 { top: 60%; left: 30%; }
+.ball8 { top: 70%; left: 50%; }
+.ball9 { top: 80%; left: 70%; }
+.ball10 { top: 90%; left: 20%; }
+.ball11 { top: 15%; left: 75%; }
+.ball12 { top: 25%; left: 55%; }
+.ball13 { top: 35%; left: 35%; }
+.ball14 { top: 45%; left: 15%; }
+.ball15 { top: 55%; left: 85%; }
+
+</style>
+</head>
+
+<body>
+
+<div class="ball ball1"></div>
+<div class="ball ball2"></div>
+<div class="ball ball3"></div>
+<div class="ball ball4"></div>
+<div class="ball ball5"></div>
+<div class="ball ball6"></div>
+<div class="ball ball7"></div>
+<div class="ball ball8"></div>
+<div class="ball ball9"></div>
+<div class="ball ball10"></div>
+<div class="ball ball11"></div>
+<div class="ball ball12"></div>
+<div class="ball ball13"></div>
+<div class="ball ball14"></div>
+<div class="ball ball15"></div>
+
+</body>
+</html>
+
+</body>
+</html>
